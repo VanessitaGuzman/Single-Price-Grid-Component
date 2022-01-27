@@ -1,0 +1,108 @@
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-top: 15px;
+}
+
+h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+p {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.5rem;
+}
+
+.attribution {
+  padding-top: 50px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+html {
+  width: 800px;
+  margin: auto;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: auto;
+  padding-top: 100px;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.monthly {
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 0px 0 0 5px;
+  padding: 15px;
+}
+.attribution footer {
+  margin: auto;
+}
+
+.join {
+  background-color: white;
+  border-radius: 5px 5px 0 0;
+  margin-top: 100px;
+  padding: 15px;
+}
+
+.why-us {
+  background-color: hsl(179, 52%, 62%);
+  border-radius: 0 0 5px 0px;
+  padding: 15px;
+}
+
+.full {
+  color: white;
+}
+
+.twenty {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.per {
+  font-size: 1rem;
+  color: hsl(204, 43%, 93%);
+}
+
+.btn {
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+}
+
+.list {
+  color: rgba(248, 248, 248, 0.747);
+  font-size: 0.9rem;
+  line-height: 0.5rem;
+}
+
+.main {
+  filter: drop-shadow(5px 5px 5px rgba(27, 10, 87, 0.151));
+}
+
+@media (max-width: 760px) {
+  .monthly {
+    border-radius: 0px 0 0 0px;
+  }
+
+  .why-us {
+    border-radius: 0 0 5px 5px;
+  }
+}
